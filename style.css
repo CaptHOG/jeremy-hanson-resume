@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5% 25%;
+  border: double;
+  border-radius: 5px;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background-color: hsl(16, 54%, 20%);
+  color: white;
+  border-bottom-style: solid;
+  border-color: black;
+}
+
+.bodyl {
+  padding: 5px;
+  background-color: burlywood;
+  height: 80vh;
+}
+
+.bodyr {
+  padding: 5px;
+  background-color: #fff8dc;
+  border-left-style: solid;
+  height: 80vh;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
